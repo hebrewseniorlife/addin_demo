@@ -3,8 +3,7 @@
 #' @description This RStudio Addin switches between Dark and Light
 #' @export
 switch_theme <- function() {
-  current_theme <- rstudioapi::getThemeInfo()$editor
-  next_theme <- c("Clouds", "Clouds Midnight")
-  next_theme <- next_theme[next_theme != current_theme]
+  current_theme <- rstudioapi::getThemeInfo()
+  next_theme <- ifelse(current_theme$dark, "Clouds", "Clouds Midnight")
   rstudioapi::applyTheme(next_theme)
 }
