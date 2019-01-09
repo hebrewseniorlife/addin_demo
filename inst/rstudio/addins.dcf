@@ -1,0 +1,51 @@
+Name: 🌗 Switch RStudio Theme
+Description: Toggle RStudio Server Theme between Dark and Light
+Binding: switch_theme
+Interactive: false
+
+Name: Using RStudio Server
+Description: Open up the "Using RStudio Server" book
+Binding: open_server_guide
+Interactive: false
+
+Name: Shiny Templates
+Description: Open up the Shiny Skeleton document
+Binding: open_shiny_template
+Interactive: false
+
+Name: Manage DataBase Connection
+Description: Modifies the .odbc.ini file in home directory to manage Database Connections
+Binding: odbc_ini
+Interactive: false
+
+Name: Clean Up Personal R Libraries
+Description: Remove all personal R packages
+Binding: remove_personal_r_packages
+Interactive: false
+
+Name: Octave - Open Console
+Description: Open up Octave in terminal to execute Matlab Codes
+Binding: open_octave
+Interactive: false
+
+Name: rcrossref:: Find Citations
+Description: Find Citation and put it in a bibtex file
+Binding: open_rcrossref
+Interactive: true
+
+Name: citr:: Insert Citations
+Description: Insert Citations from local bibtex file
+Binding: open_citr
+Interactive: true
+
+Name: memor:: Edit Memor Profile
+Description: Edit memor profile
+Binding: open_memor
+Interactive: false
+
+Name: r2cluster:: Login to Computing Cluster
+Description: Assist using Computing Cluster
+Binding: open_r2c
+Interactive: true
+
+
