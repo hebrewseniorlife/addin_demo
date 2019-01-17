@@ -1,4 +1,1 @@
-This `marcus.ifar` package provides you some localized tools to access data and other resources here at IFAR. Functions here are highly company/projects specific. It is maintained by Hao (haozhu@hsl.harvard.edu). If you have any questions, feel free to let him know. 
-
-## To install it on your workstation or personal computer
-You will have to clone/download this package from the private repository on our [bitbucket server](https://ifar-stash.hsl.harvard.edu/projects/IRP/repos/marcus/browse) and build it from local. Contact Hao if you need any help. 
+This `addin.demo` package provides you a few examples on how to use addin for personal use and for team to standalize practice. You can also find the slides here [http://bit.ly/rstudioaddin19](http://bit.ly/rstudioaddin19). 
