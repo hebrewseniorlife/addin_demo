@@ -6,8 +6,9 @@
 odbc_ini <- function() {
   if (!file.exists("~/.odbc.ini")) {
     file.create("~/.odbc.ini")
+    # If you worry your users will get lost, you can provide an example here
     sink("~/.odbc.ini")
-    cat("[MySQL Playground]\nDriver    = MySQL \nServer    = ifar-mysql-test.hebrewseniorlife.local\nDatabase  = sandbox_biostats\nPort      = 3306\nUID       = biostats_owner\nPWD       = Hebrew12345\n# This section is only for your reference if you start \n# from scratch. If you have received such info from the \n# admin, please paste the info down below.")
+    cat("Some Example setup")
     sink()
   }
   file.edit("~/.odbc.ini")

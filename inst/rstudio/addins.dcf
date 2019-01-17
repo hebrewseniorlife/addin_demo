@@ -3,14 +3,9 @@ Description: Toggle RStudio Server Theme between Dark and Light
 Binding: switch_theme
 Interactive: false
 
-Name: Using RStudio Server
-Description: Open up the "Using RStudio Server" book
-Binding: open_server_guide
-Interactive: false
-
-Name: Shiny Templates
-Description: Open up the Shiny Skeleton document
-Binding: open_shiny_template
+Name: Book: R4DS
+Description: Open up the "R4DS" book
+Binding: open_r4ds
 Interactive: false
 
 Name: Manage DataBase Connection
